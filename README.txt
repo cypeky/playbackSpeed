@@ -1,0 +1,1 @@
+Chrome Extension that allows to set custom playback speed
