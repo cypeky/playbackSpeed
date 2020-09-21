@@ -1,17 +1,18 @@
   {
-    "name": "Youtube custom speed",
+    "name": "Youtube - set custom values",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "This extension allows you to set custom values to speed na volume property",
     "manifest_version": 2,
 	"content_scripts":[
 		{
 			"matches":["<all_urls>"],
-			"js":["popup.js"]
+			"js":["content.js"]
 		}
 	],
 	"browser_action":{
 		"default_popup":"popup.html",
-		"default_title":"Speed"
-		}
+		"default_title":"Custom_actions"
+		},
+	"permissions":["activeTab"]
   }
   
